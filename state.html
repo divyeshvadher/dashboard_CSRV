@@ -1,28 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
-        /* CSS for the image */
-        img {
-            width: 500px; /* Set the width of the image */
-            border: 1px solid black; /* Add a border around the image */
-            border-radius: 5px; /* Apply rounded corners to the image */
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Apply a box shadow */
-            //margin: 100px; /* Add margin around the image */
-            margin-left: auto;
-            margin-right: auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 400px;
-        }
-    </style>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style2.css">
+
     <title>State Wise</title>
 </head>
 <body>
-    <div>
-        <img src="StateWise.png">
-      </div>
+    <div class="container">
+        <div class="topbar">
+            <!-- <div class="boc"> -->
+            <div class="image">
+                <img src="emb.png" alt="">
+            </div>
+            <div class="logo">
+                <h2>MULTI-STATE CO-OPERATIVE SOCIETIES</h2>
+                Ministry of Coorperation, Govt of India
+            </div>
+            <!-- <div class="search">
+                <input type="text" name="search" placeholder="search here">
+                <label for="search"><i class="fas fa-search"></i></label>
+            </div> -->
+            <i class="fas fa-bell"></i>
+            <div class="user">
+                <img src="MSCS_LOGO.png" alt="">
+            </div>
+        <!-- </div> -->
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="dashboard.html">
+                        <i class="fas fa-th-large"></i>
+                         <div><h2>Dashboard</h2></div>
+                        <div class="nested">
+                        <nestedlist>
+                            <ul>
+                                <li>
+                                    <a href="CSRV Data - Sheet1.pdf">
+                                        <div>Registered Societies</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="state.html">
+                                        <div>State-Wise Registered Societies</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="year.html">
+                                        <div>Year-Wise Registered Societies</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="type.html">
+                                        <div>Sector-Wise Registered Societies</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nestedlist>
+
+                    </div>
+                    </a>
+                </li>
+
+            </ul>
+</div>
+        <div class="main">
+            <img src="StateWise.png">
+        </div>
+        </div>
+
 </body>
 </html>

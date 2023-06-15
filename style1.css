@@ -123,7 +123,8 @@ img {
     width: calc(100% - 260px);
     min-height: calc(100vh - 60px);
     left: 260px;
-    background: #f5f5f5;
+/*     background: #f5f5f5; */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1sbaBEyEwcxZNpYuwaDxUMhHHJKAHTlTkug&usqp=CAU');
 }
 
 .cards {
